@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>CUDOS</title>
+    
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="card">
+            <div class="tg-chart">
+                <div class="description">
+                    <img src="./logo.jpg" alt="CUDOS">
+                    <h3>CUDOS</h3>
+                </div>
+                <div data-el="tooltip" class="tg-chart-tooltip"></div>
+                <canvas data-el="main"></canvas>
+
+                <div class="tg-chart-slider" data-el="slider">
+                    <canvas></canvas>
+                    <div data-el="left" class="tg-chart-slider__left">
+                      <div class="tg-chart-slider__arrow--left" data-el="arrow" data-type="left"></div>
+                    </div>
+        
+                    <div data-el="window" data-type="window" class="tg-chart-slider__window"></div>
+        
+                    <div data-el="right" class="tg-chart-slider__right">
+                    <div class="tg-chart-slider__arrow--right" data-el="arrow" data-type="right">
+                </div>
+            </div>
+        </div>
+        <div class="tg-chart-checkbox">
+            <label class="active"><span class="span active-checkbox"></span></label>
+            <label class="shit">CUDOS</label>
+        </div>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+
+</body>
+</html>
